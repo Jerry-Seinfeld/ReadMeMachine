@@ -14,7 +14,7 @@
   
 ## Installation
 To install run in the terminal:
-npm i
+  npm i
 
 ## Usage
 It runs on the command line
@@ -27,7 +27,7 @@ This project is licensed under the it runs on the command line license.
 
 ## Tests
 Run the command:
-    npm test
+  npm test
 
     
 ## Questions
