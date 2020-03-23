@@ -73,7 +73,7 @@ ${data.contributing}
 
 ## Tests
 Run the command:
-    ${data.tests}
+${data.tests}
 
     ## Questions
 <img src="${image}" alt="avatar" style="border-radius: 16px" width="30"/>
