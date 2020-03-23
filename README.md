@@ -1,51 +1,37 @@
-# ReadMeMachine
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)]
 
 ## Description
-Generates README.md files
+  Generates README.md files
 
- ## Table of Contents
+  ## Table of Contents
   *[Installation](#installation)
-
   *[Usage](#usage)
-
   *[License](#license)
-
   *[Contributing](#contributing)
-
   *[Tests](#tests)
-
   *[Questions](#questions)
   
 ## Installation
-
 To install run in the terminal:
-
-    npm i
+npm i
 
 ## Usage
-
-it runs on the command line
+It runs on the command line
 
 ## License
-
 This project is licensed under the it runs on the command line license.
 
 ## Contributing
 
 
-
 ## Tests
-
 Run the command:
-
     npm test
 
+    
 ## Questions
-
-<img src="https://avatars1.githubusercontent.com/u/58785613?s=460&u=46d6073e0e300f424bdfbe930d17f94c507323a9&v=4" alt="avatar" style="border-radius: 16px" width="30"/>
-
+<img src="https://avatars3.githubusercontent.com/u/58785613?v=4" alt="avatar" style="border-radius: 16px" width="30"/>
 For questions or concerns contact me at
-
-[Jerry-Seinfeld]https://github.com/Jerry-Seinfeld or andrewryzen@gmail.com 
+[Jerry-Seinfeld]https://github.com/Jerry-Seinfeld or andrewryzen@gmail.com
+  

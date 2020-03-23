@@ -2,7 +2,6 @@ const fs = require('fs');
 const axios = require("axios");
 const inquirer = require('inquirer');
 const util = require('util');
-
 const writeFileAsync = util.promisify(fs.writeFile)
 
 function repoQuestions() {
@@ -86,7 +85,7 @@ For questions or concerns contact me at
 
 
   async function init() {
-  console.log("Generating README")
+  console.log("Generating your README please wait")
   try {
      
     const data = await repoQuestions();
@@ -97,7 +96,7 @@ For questions or concerns contact me at
 
     await writeFileAsync("README.md", md);
 
-    console.log("Successfully wrote to README.md");
+    console.log("Success!");
   } catch(err) {
     console.log(err);
   }
