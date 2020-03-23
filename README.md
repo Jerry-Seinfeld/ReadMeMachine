@@ -13,6 +13,7 @@
   *[Questions](#questions)
   
 ## Installation
+
 To install run in the terminal:
   npm i
 
@@ -26,12 +27,14 @@ This project is licensed under the it runs on the command line license.
 
 
 ## Tests
+
 Run the command:
   npm test
 
     
 ## Questions
 <img src="https://avatars3.githubusercontent.com/u/58785613?v=4" alt="avatar" style="border-radius: 16px" width="30"/>
+
 For questions or concerns contact me at
 [Jerry-Seinfeld]https://github.com/Jerry-Seinfeld or andrewryzen@gmail.com
   
