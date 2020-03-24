@@ -1,14 +1,19 @@
 const fs = require('fs');
+
 const axios = require("axios");
+
 const inquirer = require('inquirer');
+
 const util = require('util');
+
 const writeFileAsync = util.promisify(fs.writeFile)
 
 function repoQuestions() {
 return inquirer.prompt ([
     
+
     {type: "input",
-        name: "username",
+        name: "GithubUser",
         message: "What is your Github Username?"},
     {type: "input",
         name: "title",
@@ -35,7 +40,7 @@ return inquirer.prompt ([
 ])
 };
 
-var getName = (data) => {
+var user = (data) => {
     var queryUrl = `https://api.github.com/users/${data.username}`;
     return axios.get(queryUrl)
 }
@@ -66,7 +71,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
-This project is licensed under the ${data.usage} license.
+${data.usage} 
 
 ## Contributing
 ${data.contributing}
@@ -90,7 +95,7 @@ For questions or concerns contact me at
      
     const data = await repoQuestions();
 
-    const res =  await getName(data);
+    const res =  await user(data);
 
     const md =  generateMarkdown(data,res.data.avatar_url,res.data.html_url);
 
