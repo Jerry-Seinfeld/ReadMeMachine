@@ -13,7 +13,6 @@
   *[Questions](#questions)
   
 ## Installation
-
 To install run in the terminal:
   npm i
 
@@ -24,10 +23,9 @@ It runs on the command line
 This project is licensed under the it runs on the command line license.
 
 ## Contributing
-
+  No contributors
 
 ## Tests
-
 Run the command:
   npm test
 

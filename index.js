@@ -21,7 +21,7 @@ return inquirer.prompt ([
         message: "What kind of license should your project have?"},
     {type: "input",
         name: "installation",
-        message: "What command should be run to install the necessary dependecies?"},
+        message: "What command should be run to install"},
     {type: "input",
         name: "tests",
         message: "Write a desired command that will run the tests"},
@@ -30,7 +30,7 @@ return inquirer.prompt ([
         message: "What does the user need to know about using the repo?"},
     {type: "input",
         name: "contributing",
-        message: "What does the user need to know about contributing to the repo?"},
+        message: "What should the user know about contributing to the repo?"},
     
 ])
 };
