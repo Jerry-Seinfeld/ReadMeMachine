@@ -21,7 +21,7 @@ npm i
 Used to generate ReadMe files
 
 ## License
-This project is licensed under the license.
+...
 
 ## Contributing
 No contributors 
