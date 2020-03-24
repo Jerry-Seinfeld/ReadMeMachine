@@ -18,13 +18,13 @@ To install run in the terminal:
 npm i
 
 ## Usage
-...
+Used to generate ReadMe files
 
 ## License
-This project is licensed under the ... license.
+This project is licensed under the license.
 
 ## Contributing
-...
+No contributors 
 
 ## Tests
 Run the command:
