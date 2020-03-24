@@ -28,7 +28,7 @@ No contributors
 
 ## Tests
 Run the command:
-npm test
+Node index.js
 
 ## Questions
 <img src="https://avatars3.githubusercontent.com/u/58785613?v=4" alt="avatar" style="border-radius: 16px" width="30"/>
