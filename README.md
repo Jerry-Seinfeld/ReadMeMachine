@@ -17,7 +17,7 @@ To install run in the terminal:
   npm i
 
 ## Usage
-It runs on the command line
+This is run on the terminal
 
 ## License
 This project is licensed under the it runs on the command line license.
