@@ -1,8 +1,9 @@
 
+# Readme Gen
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)]
 
 ## Description
-  Generates README.md files
+  This application generates ReadMe.md files
 
   ## Table of Contents
   *[Installation](#installation)
@@ -14,25 +15,25 @@
   
 ## Installation
 To install run in the terminal:
-  npm i
+npm i
 
 ## Usage
-This is run on the terminal
+...
 
 ## License
-This project is licensed under the it runs on the command line license.
+This project is licensed under the ... license.
 
 ## Contributing
-  No contributors
+...
 
 ## Tests
 Run the command:
-  npm test
+npm test
 
-    
 ## Questions
 <img src="https://avatars3.githubusercontent.com/u/58785613?v=4" alt="avatar" style="border-radius: 16px" width="30"/>
-
 For questions or concerns contact me at
-https://github.com/Jerry-Seinfeld or andrewryzen@gmail.com
+[Jerry-Seinfeld]https://github.com/Jerry-Seinfeld
+
+![Gif](Gif.gif)
   
