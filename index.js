@@ -8,38 +8,6 @@ const util = require('util');
 
 const writeFileAsync = util.promisify(fs.writeFile)
 
-function repoQuestions() {
-return inquirer.prompt ([
-    
-
-    {type: "input",
-        name: "GithubUser",
-        message: "What is your Github Username?"},
-    {type: "input",
-        name: "title",
-        message: "The Title of your project?"},
-    {type: "input",
-        name: "description",
-        message: "Describe your project"},
-    {type: "input",
-        name: "license",
-        message: "What kind of license should your project have?"},
-    {type: "input",
-        name: "installation",
-        message: "What command should be run to install"},
-    {type: "input",
-        name: "tests",
-        message: "Write a desired command that will run the tests"},
-    {type: "input",
-        name: "usage",
-        message: "What does the user need to know about using the repo?"},
-    {type: "input",
-        name: "contributing",
-        message: "What should the user know about contributing to the repo?"},
-    
-])
-};
-
 var user = (data) => {
     var queryUrl = `https://api.github.com/users/${data.username}`;
     return axios.get(queryUrl)
@@ -87,6 +55,37 @@ For questions or concerns contact me at
   `
 };
 
+function repoQuestions() {
+    return inquirer.prompt ([
+        
+    
+        {type: "input",
+            name: "GithubUser",
+            message: "What is your Github Username?"},
+        {type: "input",
+            name: "title",
+            message: "The Title of your project?"},
+        {type: "input",
+            name: "description",
+            message: "Describe your project"},
+        {type: "input",
+            name: "license",
+            message: "What kind of license should your project have?"},
+        {type: "input",
+            name: "installation",
+            message: "What command should be run to install"},
+        {type: "input",
+            name: "tests",
+            message: "Write a desired command that will run the tests"},
+        {type: "input",
+            name: "usage",
+            message: "What does the user need to know about using the repo?"},
+        {type: "input",
+            name: "contributing",
+            message: "What should the user know about contributing to the repo?"},
+        
+    ])
+    };
 
 
   async function init() {
