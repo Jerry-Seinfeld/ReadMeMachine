@@ -24,7 +24,7 @@ Used to generate ReadMe files
 ...
 
 ## Contributing
-No contributors 
+Myself 
 
 ## Tests
 Run the command:
